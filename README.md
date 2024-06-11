@@ -1,4 +1,4 @@
-# NFD
+# YYDS
 No Fraud / Node Forward Bot
 
 一个基于cloudflare worker的telegram 消息转发bot，集成了反欺诈功能
@@ -21,7 +21,7 @@ No Fraud / Node Forward Bot
     - 增加一个`ENV_BOT_TOKEN`变量，数值为从步骤1中获得的token
     - 增加一个`ENV_BOT_SECRET`变量，数值为从步骤2中获得的secret
     - 增加一个`ENV_ADMIN_UID`变量，数值为从步骤3中获得的用户id
-6. 绑定kv数据库，创建一个Namespace Name为`nfd`的kv数据库，在setting -> variable中设置`KV Namespace Bindings`：nfd -> nfd
+6. 绑定kv数据库，创建一个Namespace Name为`YYDS`的kv数据库，在setting -> variable中设置`KV Namespace Bindings`：YYDS -> YYDS
 7. 点击`Quick Edit`，复制[这个文件](./worker.js)到编辑器中
 8. 通过打开`https://xxx.workers.dev/registerWebhook`来注册websoket
 
