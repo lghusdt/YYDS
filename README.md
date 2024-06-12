@@ -1,7 +1,7 @@
 # YYDS
 No Fraud / Node Forward Bot
 
-一个基于cloudflare worker的telegram 消息转发bot，集成了反欺诈功能
+一个基于Cloudflare Worker的Telegram 消息转发bot，集成了反欺诈功能
 
 ## 特点
 - 基于cloudflare worker搭建，能够实现以下效果
